@@ -5,8 +5,7 @@
   --paragraph-font: "Roberto", sans-serif;
 }
 body {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px;
   background-color: var(--secondary-color);
 }
 h1 {
@@ -15,6 +14,15 @@ h1 {
   margin: 30px;
   font-size: 72px;
   font-family: var(--headings-font);
+}
+h3 {
+  font-size: 25px;
+}
+a {
+  text-decoration: none;
+}
+p {
+  font-family: var(--paragraph-font);
 }
 .carousel-item img {
   object-fit: cover;
@@ -35,6 +43,18 @@ h1 {
   padding: 20px 15px;
   margin: 20px;
   color: white;
-  text-decoration: none;
   border-radius: 4px;
+}
+.owner {
+  max-width: 300px;
+  margin: 0 auto;
+  border: 1px solid var(--primary-color);
+}
+.legacy-link {
+  background-color: var(--primary-color);
+  padding: 20px 15px;
+  margin: 0 auto;
+  color: white;
+  border-radius: 4px;
+  max-width: 350px;
 }
