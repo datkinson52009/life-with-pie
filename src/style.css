@@ -1,7 +1,8 @@
 :root {
   --primary-color: #2c2f83;
   --secondary-color: #feeee3;
-  --headings-font: "Roboto", sans-serif;
+  --headings-font: "Mali", cursive;
+  --paragraph-font: "Roberto", sans-serif;
 }
 body {
   margin-top: 50px;
@@ -13,6 +14,7 @@ h1 {
   text-align: center;
   margin: 30px;
   font-size: 72px;
+  font-family: var(--headings-font);
 }
 .carousel-item img {
   object-fit: cover;
@@ -26,6 +28,7 @@ h1 {
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
+  font-family: var(--paragraph-font);
 }
 .navigation-links a {
   background-color: var(--primary-color);
