@@ -13,7 +13,6 @@ h1 {
   text-align: center;
   margin: 30px;
   font-size: 72px;
-  font-family: var(--headings-font);
 }
 h3 {
   font-size: 25px;
@@ -23,6 +22,9 @@ a {
 }
 p {
   font-family: var(--paragraph-font);
+}
+.navbar {
+  background-color: var(--primary-color) !important;
 }
 .carousel-item img {
   object-fit: cover;
@@ -48,7 +50,6 @@ p {
 .owner {
   max-width: 300px;
   margin: 0 auto;
-  border: 1px solid var(--primary-color);
 }
 .legacy-link {
   background-color: var(--primary-color);
@@ -57,4 +58,12 @@ p {
   color: white;
   border-radius: 4px;
   max-width: 350px;
+}
+.mastermind-link {
+  color: var(--primary-color);
+}
+.card {
+  height: 400px;
+}
+.course-list {
 }
