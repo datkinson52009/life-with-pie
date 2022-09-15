@@ -1,12 +1,11 @@
 :root {
-  --primary-color: #2c2f83;
+  --primary-color: #22495a;
   --secondary-color: #feeee3;
   --headings-font: "Mali", cursive;
   --paragraph-font: "Roberto", sans-serif;
 }
 body {
   margin: 50px;
-  background-color: var(--secondary-color);
 }
 h1 {
   color: var(--primary-color);
@@ -45,7 +44,7 @@ p {
   padding: 20px 15px;
   margin: 20px;
   color: white;
-  border-radius: 4px;
+  border-radius: 44px;
 }
 .owner {
   max-width: 300px;
@@ -62,8 +61,7 @@ p {
 .mastermind-link {
   color: var(--primary-color);
 }
-.card {
-  height: 400px;
-}
+
 .course-list {
+  text-align: center;
 }
